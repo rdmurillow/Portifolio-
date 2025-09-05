@@ -240,8 +240,3 @@ class Professional:
         print("=" * 50)
         for course in self.courses:
             print(f"- {course}")
-
-# Instanciando e exibindo o currículo
-if __name__ == "__main__":
-    resume = Professional()
-    resume.display_resume()
